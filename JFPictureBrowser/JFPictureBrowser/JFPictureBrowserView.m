@@ -75,6 +75,17 @@
     [[[SDWebImageManager sharedManager] imageCache] clearDisk];
 }
 
+- (void)showInView:(UIView *)view
+{
+    [view addSubview:self];
+    
+    self.alpha = 0.0;
+    
+    [UIView animateWithDuration:0.5 animations:^{
+        self.alpha = 1.0;
+    } completion:nil];
+}
+
 #pragma mark - Customed Methods
 
 - (void)addContentView

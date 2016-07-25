@@ -13,9 +13,6 @@
 		560B9C971C9664830036C0E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560B9C951C9664830036C0E2 /* Main.storyboard */; };
 		560B9C991C9664830036C0E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560B9C981C9664830036C0E2 /* Assets.xcassets */; };
 		560B9C9C1C9664830036C0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560B9C9A1C9664830036C0E2 /* LaunchScreen.storyboard */; };
-		560B9CA61C9664A60036C0E2 /* JFPictureBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 560B9CA41C9664A60036C0E2 /* JFPictureBrowserCell.m */; };
-		560B9CA71C9664A60036C0E2 /* JFPictureBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 560B9CA51C9664A60036C0E2 /* JFPictureBrowserCell.xib */; };
-		560B9CAA1C9667CD0036C0E2 /* JFPictureBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 560B9CA91C9667CD0036C0E2 /* JFPictureBrowserView.m */; };
 		560B9CCD1C9689D10036C0E2 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 560B9CAD1C9689D10036C0E2 /* MKAnnotationView+WebCache.m */; };
 		560B9CCE1C9689D10036C0E2 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 560B9CAF1C9689D10036C0E2 /* NSData+ImageContentType.m */; };
 		560B9CCF1C9689D10036C0E2 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 560B9CB11C9689D10036C0E2 /* SDImageCache.m */; };
@@ -35,6 +32,9 @@
 		560B9CEB1C9696800036C0E2 /* JFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 560B9CE71C9696800036C0E2 /* JFProgressHUD.m */; };
 		560B9CEC1C9696800036C0E2 /* JFProgressHUD_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 560B9CE81C9696800036C0E2 /* JFProgressHUD_pic.png */; };
 		560B9CED1C9696800036C0E2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 560B9CEA1C9696800036C0E2 /* MBProgressHUD.m */; };
+		56A7C0B01D3CB3EB00E30419 /* JFPictureBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A7C0AC1D3CB3EB00E30419 /* JFPictureBrowserCell.m */; };
+		56A7C0B11D3CB3EB00E30419 /* JFPictureBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A7C0AD1D3CB3EB00E30419 /* JFPictureBrowserCell.xib */; };
+		56A7C0B21D3CB3EB00E30419 /* JFPictureBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A7C0AF1D3CB3EB00E30419 /* JFPictureBrowserView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,11 +48,6 @@
 		560B9C981C9664830036C0E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		560B9C9B1C9664830036C0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		560B9C9D1C9664830036C0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		560B9CA31C9664A60036C0E2 /* JFPictureBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPictureBrowserCell.h; sourceTree = "<group>"; };
-		560B9CA41C9664A60036C0E2 /* JFPictureBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPictureBrowserCell.m; sourceTree = "<group>"; };
-		560B9CA51C9664A60036C0E2 /* JFPictureBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPictureBrowserCell.xib; sourceTree = "<group>"; };
-		560B9CA81C9667CD0036C0E2 /* JFPictureBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPictureBrowserView.h; sourceTree = "<group>"; };
-		560B9CA91C9667CD0036C0E2 /* JFPictureBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPictureBrowserView.m; sourceTree = "<group>"; };
 		560B9CAC1C9689D10036C0E2 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		560B9CAD1C9689D10036C0E2 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		560B9CAE1C9689D10036C0E2 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -91,6 +86,11 @@
 		560B9CE81C9696800036C0E2 /* JFProgressHUD_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JFProgressHUD_pic.png; sourceTree = "<group>"; };
 		560B9CE91C9696800036C0E2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		560B9CEA1C9696800036C0E2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		56A7C0AB1D3CB3EB00E30419 /* JFPictureBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPictureBrowserCell.h; sourceTree = "<group>"; };
+		56A7C0AC1D3CB3EB00E30419 /* JFPictureBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPictureBrowserCell.m; sourceTree = "<group>"; };
+		56A7C0AD1D3CB3EB00E30419 /* JFPictureBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFPictureBrowserCell.xib; sourceTree = "<group>"; };
+		56A7C0AE1D3CB3EB00E30419 /* JFPictureBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPictureBrowserView.h; sourceTree = "<group>"; };
+		56A7C0AF1D3CB3EB00E30419 /* JFPictureBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFPictureBrowserView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,17 +123,13 @@
 		560B9C8B1C9664830036C0E2 /* JFPictureBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				56A7C0AA1D3CB3EB00E30419 /* JFPictureBrowser */,
 				560B9CE51C9696800036C0E2 /* JFProgressHUD */,
 				560B9CAB1C9689D10036C0E2 /* SDWebImage */,
 				560B9C8F1C9664830036C0E2 /* AppDelegate.h */,
 				560B9C901C9664830036C0E2 /* AppDelegate.m */,
 				560B9C921C9664830036C0E2 /* ViewController.h */,
 				560B9C931C9664830036C0E2 /* ViewController.m */,
-				560B9CA31C9664A60036C0E2 /* JFPictureBrowserCell.h */,
-				560B9CA41C9664A60036C0E2 /* JFPictureBrowserCell.m */,
-				560B9CA51C9664A60036C0E2 /* JFPictureBrowserCell.xib */,
-				560B9CA81C9667CD0036C0E2 /* JFPictureBrowserView.h */,
-				560B9CA91C9667CD0036C0E2 /* JFPictureBrowserView.m */,
 				560B9C951C9664830036C0E2 /* Main.storyboard */,
 				560B9C981C9664830036C0E2 /* Assets.xcassets */,
 				560B9C9A1C9664830036C0E2 /* LaunchScreen.storyboard */,
@@ -203,6 +199,18 @@
 			path = JFProgressHUD;
 			sourceTree = "<group>";
 		};
+		56A7C0AA1D3CB3EB00E30419 /* JFPictureBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				56A7C0AB1D3CB3EB00E30419 /* JFPictureBrowserCell.h */,
+				56A7C0AC1D3CB3EB00E30419 /* JFPictureBrowserCell.m */,
+				56A7C0AD1D3CB3EB00E30419 /* JFPictureBrowserCell.xib */,
+				56A7C0AE1D3CB3EB00E30419 /* JFPictureBrowserView.h */,
+				56A7C0AF1D3CB3EB00E30419 /* JFPictureBrowserView.m */,
+			);
+			path = JFPictureBrowser;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,8 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				560B9C9C1C9664830036C0E2 /* LaunchScreen.storyboard in Resources */,
-				560B9CA71C9664A60036C0E2 /* JFPictureBrowserCell.xib in Resources */,
 				560B9C991C9664830036C0E2 /* Assets.xcassets in Resources */,
+				56A7C0B11D3CB3EB00E30419 /* JFPictureBrowserCell.xib in Resources */,
 				560B9C971C9664830036C0E2 /* Main.storyboard in Resources */,
 				560B9CEC1C9696800036C0E2 /* JFProgressHUD_pic.png in Resources */,
 			);
@@ -282,17 +290,17 @@
 				560B9CDB1C9689D10036C0E2 /* UIImageView+WebCache.m in Sources */,
 				560B9CD91C9689D10036C0E2 /* UIImage+WebP.m in Sources */,
 				560B9CD51C9689D10036C0E2 /* SDWebImagePrefetcher.m in Sources */,
-				560B9CA61C9664A60036C0E2 /* JFPictureBrowserCell.m in Sources */,
 				560B9CD11C9689D10036C0E2 /* SDWebImageDecoder.m in Sources */,
 				560B9CD21C9689D10036C0E2 /* SDWebImageDownloader.m in Sources */,
-				560B9CAA1C9667CD0036C0E2 /* JFPictureBrowserView.m in Sources */,
 				560B9CD41C9689D10036C0E2 /* SDWebImageManager.m in Sources */,
+				56A7C0B21D3CB3EB00E30419 /* JFPictureBrowserView.m in Sources */,
 				560B9CDC1C9689D10036C0E2 /* UIView+WebCacheOperation.m in Sources */,
 				560B9CD61C9689D10036C0E2 /* UIButton+WebCache.m in Sources */,
 				560B9CD81C9689D10036C0E2 /* UIImage+MultiFormat.m in Sources */,
 				560B9C911C9664830036C0E2 /* AppDelegate.m in Sources */,
 				560B9CEB1C9696800036C0E2 /* JFProgressHUD.m in Sources */,
 				560B9CD31C9689D10036C0E2 /* SDWebImageDownloaderOperation.m in Sources */,
+				56A7C0B01D3CB3EB00E30419 /* JFPictureBrowserCell.m in Sources */,
 				560B9CD71C9689D10036C0E2 /* UIImage+GIF.m in Sources */,
 				560B9CD01C9689D10036C0E2 /* SDWebImageCompat.m in Sources */,
 				560B9CCE1C9689D10036C0E2 /* NSData+ImageContentType.m in Sources */,
@@ -445,6 +453,7 @@
 				560B9CA21C9664830036C0E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

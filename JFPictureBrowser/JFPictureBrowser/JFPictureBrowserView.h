@@ -66,4 +66,11 @@
  */
 + (void)clearImagesCache;
 
+/**
+ *  显示在父视图
+ *
+ *  @param view 父视图
+ */
+- (void)showInView:(UIView *)view;
+
 @end
