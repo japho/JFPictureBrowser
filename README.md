@@ -1,2 +1,2 @@
 # JFPictureBrowser
-基于UICollectionView的图片浏览器
+a picture browser based on UICollectionView
